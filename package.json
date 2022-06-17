@@ -1,0 +1,23 @@
+{
+    "name": "nodeproj",
+    "version": "1.0.0",
+    "description": "",
+    "main": "arrays.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BSEF19A505/Basic-Javascript-Code.git"
+    },
+    "author": "Mahad Bin Naeem",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BSEF19A505/Basic-Javascript-Code/issues"
+    },
+    "homepage": "https://github.com/BSEF19A505/Basic-Javascript-Code#readme",
+    "dependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
