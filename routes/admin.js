@@ -8,7 +8,7 @@ const products = [];
 
 // /admin/home => GET
 router.get('/addproduct', (req, res, next) => {
-    res.sendFile(path.join(mainpath, 'views', 'addproduct.html'));
+    res.render('addproduct', { pageTitle: 'Add PRODUCT', path: '/admin/addproduct' });
 
     //res.send('<form action="/admin/product" method="POST"><input type="text" name="title"><button type = "submit">Add Product</button></form>')
 
